@@ -8,7 +8,7 @@ pipeline {
       }
     }
 
-    stage('Build) {
+    stage('Build') {
           steps {
             sh 'python3 age_calculator.py'
       }
